@@ -4,11 +4,8 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
-import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
-import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
@@ -42,11 +39,11 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
-            <Education />
+            {/* <Education /> */}
             <WorkExperience />
-            <Projects />
+            {/* <Projects /> */}
             <StartupProject />
-            <Blogs />
+            {/* <Blogs /> */}
             <Profile />
             <Footer />
             <ScrollToTopButton />

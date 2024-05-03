@@ -36,7 +36,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Experienced Senior Front End/UI Developer with 10+ years of expertise in HTML, CSS, and JavaScript. Specializes in Angular, React, and Redux for state management, translating design concepts into efficient front-end code. Adept at estimating timelines and costs, and collaborating with cross-functional teams to ensure seamless user experiences.",
+  subTitle: "Experienced Senior Front End/UI Developer with 10+ years of expertise in HTML, CSS, and JavaScript, including extensive experience with SAP UI5. Specializes in Angular, React, and Redux for state management, translating design concepts into efficient front-end code. Adept at estimating timelines and costs, and collaborating with cross-functional teams to ensure seamless user experiences.",
   skills: [
     emoji(
       "⚡ Create engaging and user-friendly interfaces for your websites and mobile apps that captivate and delight users."
@@ -120,6 +120,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker",
       color: "#026eb4"
+    },
+    {
+      skillName: "SAP UI5",
+      iconUrl: "/sapui5.png",
+      color: "#026eb4"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -158,7 +163,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend - React/Angular/Javascript", 
+      Stack: "Frontend - React/Angular/Javascript/SAP UI5", 
       progressPercentage: "90%"
     },
     {
