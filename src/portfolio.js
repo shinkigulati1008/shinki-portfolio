@@ -20,7 +20,7 @@ const greeting = {
     "I’m a passionate front-end developer seeking an exciting role in an established IT company. My goal is to collaborate with talented teams, tackle challenging projects, and leverage the latest technologies to create exceptional user experiences."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1PP_UWad-ny5MKyg_lnMT1foZwr1do3kS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1D9xTNZ6Gom16Ts3h1QEnqp35zyqxeji6/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
