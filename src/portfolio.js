@@ -121,11 +121,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker",
       color: "#026eb4"
     },
-    {
-      skillName: "SAP UI5",
-      iconUrl: "/sapui5.png",
-      color: "#026eb4"
-    }
+    // {
+    //   skillName: "SAP UI5",
+    //   iconUrl: "/sapui5.png",
+    //   color: "#026eb4"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -163,15 +163,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend - React/Angular/Javascript/SAP UI5", 
+      Stack: "Frontend - React/Angular/NextJS/Javascript", 
       progressPercentage: "90%"
     },
     {
-      Stack: "Backend - Node/Express/PHP ",
+      Stack: "Backend - Node/Express/PHP/Go",
       progressPercentage: "70%"
     },
     {
-      Stack: "MySql/DataBases/MongoDB",
+      Stack: "MySql/PostgreSQL/DataBases/MongoDB",
       progressPercentage: "60%"
     },
     {
@@ -188,6 +188,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      color: "#372c84",
+      company: "AsBuilt",
+      companylogo: require("./assets/images/asbuilt.png"),
+      position: "SeniorSoftware Engineer",
+      date: "June 2024 – Present",
+      descBullets: [
+        "Developed and maintained core features of a SaaS-based construction management platform using React and Go.",
+        "Enhanced functionality for PayLab, a critical module for managing payments, certifications, and claims for contractors, subcontractors, and construction teams.",
+        "Collaborated with cross-functional teams to design scalable solutions for PayLab."
+      ],
+    },
     {
       color: "#3fa6bb",
       role: "Senior Software Engineer",
