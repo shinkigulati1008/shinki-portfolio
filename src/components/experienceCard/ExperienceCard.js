@@ -6,8 +6,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
   function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
+    try {
+      const colorThief = new ColorThief();
+      setColorArrays(colorThief.getColor(imgRef.current));
+    } catch (error) {
+      console.error("Color Thief Error:", error);
+    }
   }
 
   function rgb(values) {

@@ -79,16 +79,20 @@
 
 .experience-roundedimg {
   position: absolute;
-  // object-fit: cover;
   left: 0;
   right: 0;
   top: 7rem;
   margin-left: auto;
   margin-right: auto;
-  width: 16rem;
   height: 8rem;
-  // box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  // border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  border-radius: 50%;
+  width: auto;
+  max-width: 10rem;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #E0E0E0;
+  padding: 6px;
 }
 
 .experience-text-role {
@@ -129,7 +133,7 @@
     font-size: 22px;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 20px;
   }
   .experience-text-date {
     font-size: 18px;

@@ -17,10 +17,10 @@ const greeting = {
   username: "Shinki Gulati",
   title: "Hi I'm Web Developer",
   subTitle: emoji(
-    "I’m a passionate front-end developer seeking an exciting role in an established IT company. My goal is to collaborate with talented teams, tackle challenging projects, and leverage the latest technologies to create exceptional user experiences."
+    "I’m a passionate software developer seeking an exciting role in an established IT company. My goal is to collaborate with talented teams, tackle challenging projects, and leverage the latest technologies to create exceptional user experiences."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1D9xTNZ6Gom16Ts3h1QEnqp35zyqxeji6/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Y92UddDl-WwN87rzsdQnFYtYPLC8TZT-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Experienced Senior Front End/UI Developer with 10+ years of expertise in HTML, CSS, and JavaScript, including extensive experience with SAP UI5. Specializes in Angular, React, and Redux for state management, translating design concepts into efficient front-end code. Adept at estimating timelines and costs, and collaborating with cross-functional teams to ensure seamless user experiences.",
+  subTitle: "Experienced Senior Software Engineer with 10+ years of expertise in HTML, CSS, and JavaScript, including extensive experience with TypeScript. Specializes in Angular, React, and Redux for state management, translating design concepts into efficient front-end code. Also proficient in backend development with PHP and Go. Adept at estimating timelines and costs, and collaborating with cross-functional teams to ensure seamless user experiences.",
   skills: [
     emoji(
       "⚡ Create engaging and user-friendly interfaces for your websites and mobile apps that captivate and delight users."
