@@ -190,6 +190,7 @@ const workExperiences = {
   experience: [
     {
       color: "#372c84",
+      role: "Senior Software Engineer",
       company: "AsBuilt",
       companylogo: require("./assets/images/asbuilt.png"),
       position: "SeniorSoftware Engineer",
